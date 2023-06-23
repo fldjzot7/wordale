@@ -1,0 +1,40 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.keyboard-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.keyboard-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border: 2px solid #dee0e3;
+  border-radius: 3px;
+  background-color: #dee0e3;
+}
+
+.keyboard-block__icon {
+  border: 2px solid #dee0e3;
+  background-color: #dee0e3;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.keyboard-block__icon img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+}

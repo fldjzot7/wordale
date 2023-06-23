@@ -1,0 +1,28 @@
+header {
+  padding: 15px;
+  border-bottom: 1px solid #dee0e3;
+}
+
+.header-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-title {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.header-icons img {
+  width: 30px;
+  margin: 0px 5px 0px 5px;
+}
+
+.header-icons {
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 30px;
+}
